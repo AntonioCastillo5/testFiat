@@ -1,0 +1,378 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url(assets/fontawesome/webfonts/fa-solid-900.ttf);
+    font-weight: 700; }
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(assets/fonts/PlayfairDisplay-Bold.ttf);
+    font-weight: 700; }
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(assets/fonts/PlayfairDisplay-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic; }
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(assets/fonts/PlayfairDisplay-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic; }
+
+@font-face {
+    font-family: Lato;
+    src: url(assets/fonts/Lato-Regular.ttf);
+    font-weight: 400; }
+
+@font-face {
+    font-family: Lato;
+    src: url(assets/fonts/Lato-Bold.ttf);
+    font-weight: 700; }
+
+body {
+    background: url(assets/images/bg.svg) no-repeat center center; 
+    background-size: auto 100%; 
+    margin: 0px;
+}
+
+.menubar {
+    display: block; 
+    width: 100%; 
+    position: fixed; 
+    top: 0px; 
+    background-color: white; 
+    margin: 0px; 
+    padding: 0px; 
+    height: 50px; 
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.35);
+    z-index: 999999;
+}
+
+.menucontainer {
+    display: block;
+    max-width: 990px;
+    margin: 0px auto;
+}
+
+.logocontainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    margin: 13px 0px 0px 9px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    padding: 16px 0px 0px 0px;
+}
+
+.menulink {
+    font-family: Lato;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.menubtncnt {
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 0px 0px 0px;
+}
+
+.menubtn {
+    margin: 0px 0px 0px 95px;
+    vertical-align: top;
+    color: #CD2F32;
+}
+
+.hero1 {
+    margin: 84px 0px 0px 0px; 
+    font-family: Lato; 
+    font-weight: 700; 
+    color: white; 
+    text-transform: uppercase; 
+    font-size: 0.75em; 
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.line {
+    display: inline-block;
+    margin: 0.6em 12px 0px 12px;
+    width: 55px;
+    border-bottom: solid 2px #000000;
+    vertical-align: top;
+}
+
+.hero2 {
+    display: inline-block;
+    margin: 17px 0px 0px 0px;
+    font-family: PlayfairDisplay;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.hero3 {
+    margin: -15px 0px 0px 0px; 
+    font-family: PlayfairDisplay; 
+    font-weight: 900; 
+    color: white; 
+    font-size: 7.5em; 
+    text-align: center; 
+    font-style: italic;
+}
+
+.car {
+    display: block;
+    margin: -42px auto 0px auto;
+    padding: 0px 17px 0px 0px;
+}
+
+.form {
+    display: block;
+    max-width: 820px;
+    background-color: white;
+    margin: -120px auto 100px auto;
+    padding: 150px 85px 50px 85px;
+}
+
+.formleft {
+    display: inline-block;
+    width: 48%;
+    margin: 0px 3.5% 0px 0px;
+}
+
+.formright {
+    display: inline-block;
+    width: 48%;
+}
+
+label {
+    display: block;
+    font-family: Lato;
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+.label1 {
+    margin: 0px 0px 5px 9px;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.select1 {
+    appearance:none;
+    display: block;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    font-family: Lato;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    padding: 8px 4px;
+    border: solid red 0.125px;
+}
+
+.select-wrapper {
+    position: relative;	
+}
+
+.select-wrapper:after {
+    font-family: FontAwesome;
+    content: '\f078';
+    font-size: 0.75em;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #434B67;
+    pointer-events: none;
+}
+
+.titlecontainer {
+    margin: 25px auto 0px auto;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    font-family: PlayfairDisplay;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+    color: #ff0000;
+    margin: 0px;
+}
+
+.line2 {
+    display: inline-block;
+    margin: 1.1em 12px 0px 12px;
+    width: 170px;
+    border-bottom: solid 2px #ff0000;
+    vertical-align: top;
+}
+
+.subtitle {
+    margin: 0px 0px 0px 0px; 
+    font-family: Lato; 
+    font-weight: 700; 
+    color: black; 
+    text-transform: uppercase; 
+    font-size: 0.75em; 
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.formcontainer {
+    margin: 50px 0px 0px 0px;
+}
+
+.form1 {
+    display: inline-block;
+    width: 25.5%;
+    margin: 0px 9.76% 0px 0px;
+}
+
+.input1 {
+    appearance:none;
+    display: block;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    font-family: Lato;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    padding: 8px;
+    border: solid red 0.125px;
+}
+
+.form2 {
+    display: inline-block;
+    width: 25.9%;
+    margin: 0px 0px 0px 0px;
+}
+
+button {
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding: 8px 4px;
+    border: solid red 0.125px;
+}
+
+.button1 {
+    display: inline-block;
+    width: 33.3%;
+    margin: 0px 0px 50px 0px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: #ff0000;
+    color: white;
+}
+
+.button2 {
+    display: inline-block;
+    width: 33.3%;
+    margin: 0px 0px 50px 0px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+.icon1 {
+    font-family: FontAwesome;
+    font-size: 0.75em;
+    color: white;
+    margin: 0px 30px 0px 0px;
+}
+
+.icon2 {
+    font-family: FontAwesome;
+    font-size: 0.75em;
+    color: black;
+    margin: 0px 30px 0px 0px;
+}
+
+.container1 {
+    margin: 35px auto 0px auto;
+    padding: 0px 10%;
+}
+
+.button3 {
+    display: inline-block;
+    width: 50%;
+    margin: 0px 0px 40px 0px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+.button4 {
+    display: inline-block;
+    width: 50%;
+    margin: 0px 0px 40px 0px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: #ff0000;
+    color: white;
+}
+
+.input2 {
+    appearance: none;
+    display: block;
+    width: calc(100% - 18px);
+    height: 140px;
+    margin: 0px 0px 40px 0px;
+    font-family: Lato;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    padding: 8px;
+    border: solid red 0.125px;
+}
+
+.container2{
+    display: inline-block;
+    width: 45.3%;
+}
+
+.cbox1 {
+    transform: scale(1.75);
+    margin: 0px 10px 0px 7px;
+}
+
+.label2 {
+    margin: 0px 0px 25px 0px;
+    color: black;
+    font-size: 0.85em;
+}
+
+.button5 {
+    float: right;
+    width: 15%;
+    margin: -60px 0px 0px 0px;
+    color: black;
+    letter-spacing: 4px;
+    background-color: transparent;
+}
