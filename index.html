@@ -40,13 +40,15 @@
         </div>
     </div>
     <h1 class="hero3">Elige el tuyo</h1>
-    <img src="assets/images/car.png" alt="logo" class="car">
+    <div class="mincar">
+        <img src="assets/images/car.png" alt="logo" class="car">
+    </div>
     <! -- Form -->
     <fomr class="form">
         <div class="formleft">
             <label class="label1">Modelo</label>
             <div class="select-wrapper">
-                <select class="select1">
+                <select>
                     <option value="option-1">Opción 1</option>
                     <option value="option-2">Opción 2</option>
                     <option value="option-3">Opción 3</option>
@@ -56,7 +58,7 @@
         <div class="formright">
             <label class="label1">Versión</label>
             <div class="select-wrapper">
-                <select class="select1">
+                <select>
                     <option value="option-1">Opción 1</option>
                     <option value="option-2">Opción 2</option>
                     <option value="option-3">Opción 3</option>
@@ -66,7 +68,7 @@
         <div class="formleft">
             <label class="label1">Estado</label>
             <div class="select-wrapper">
-                <select class="select1">
+                <select>
                     <option value="option-1">Opción 1</option>
                     <option value="option-2">Opción 2</option>
                     <option value="option-3">Opción 3</option>
@@ -76,7 +78,7 @@
         <div class="formright">
             <label class="label1">Distribuidor</label>
             <div class="select-wrapper">
-                <select class="select1">
+                <select>
                     <option value="option-1">Opción 1</option>
                     <option value="option-2">Opción 2</option>
                     <option value="option-3">Opción 3</option>
@@ -86,9 +88,7 @@
         <div class="titlecontainer">
             <div class="line2">
                 <br>
-            </div>
-            <h2 class="title">Datos personales</h2>
-            <div class="line2">
+            </div><h2 class="title">Datos personales</h2><div class="line2">
                 <br>
             </div>
         </div>
@@ -96,23 +96,21 @@
         <div class="formcontainer">
             <div class="form1">
                 <label class="label1">Nombre(s)</label>
-                <input class="input1" placeholder="Escribe tu nombre">
-            </div>
-            <div class="form1">
+                <input placeholder="Escribe tu nombre">
+            </div><div class="form1">
                 <label class="label1">Apellido Paterno</label>
-                <input class="input1" placeholder="Escribe tu apellido">
-            </div>
-            <div class="form2">
+                <input placeholder="Escribe tu apellido">
+            </div><div class="form2">
                 <label class="label1">Apellido Materno</label>
-                <input class="input1" placeholder="Escribe tu apellido">
+                <input placeholder="Escribe tu apellido">
             </div>
             <div class="form1">
                 <label class="label1">Email</label>
-                <input class="input1" placeholder="correo@email.com.mx">
+                <input placeholder="correo@email.com.mx">
             </div>
             <div class="form1">
                 <label class="label1">Teléfono</label>
-                <input class="input1" placeholder="c01 . 844 . 439 . 0654">
+                <input placeholder="c01 . 844 . 439 . 0654">
             </div>
         </div>
         <label class="label1">Deseo ser contactado por</label>
@@ -130,29 +128,33 @@
         <div class="container1">
             <label class="label1">Elige tu tipo de pago</label>
             <button type="button" class="button3">Contado</button><button type="button" class="button4">Crédito</button>
-            <div class="container2" style="margin-right: 6.5%;">
+            <div class="container2 container3">
                 <label class="label1">Cantidad de enganche</label>
-                <input class="input1" placeholder="80, 000.00">
+                <input class="input2" placeholder="80, 000.00">
             </div><div class="container2">
                 <label class="label1">Plazo</label>
-                <input class="input1" placeholder="72 meses">
+                <div class="select-wrapper">
+                    <select class="input3">
+                        <option value="option-1">Opción 1</option>
+                        <option value="option-2">Opción 2</option>
+                        <option value="option-3">Opción 3</option>
+                    </select>
+                </div>
             </div>
         </div>
         <div class="titlecontainer">
-            <div class="line2">
+            <div class="line3">
                 <br>
-            </div>
-            <h2 class="title">Comentarios</h2>
-            <div class="line2">
+            </div><h2 class="title">Comentarios</h2><div class="line3">
                 <br>
             </div>
         </div>
         <p class="subtitle">Nos importan tus comentarios</p>
         <div style="margin: 35px 0px 25px 0px">
             <label class="label1">¿Dudas? ¿Comentarios?</label>
-            <textarea class="input2" placeholder="Escríbenos"></textarea>
+            <textarea placeholder="Escríbenos"></textarea>
         </div>
-        <div style="margin: 75px 0px 0px 0px;">
+        <div class="container4">
             <label class="label2"><input type="checkbox" class="cbox1" value="first_checkbox"> He leído y acepto el <a href="#">aviso de privacidad</a></label>
             <label class="label2"><input type="checkbox" class="cbox1" value="second_checkbox">No deseo recibir promociones</label>
             <button type="button" class="button5">Enviar</button>
