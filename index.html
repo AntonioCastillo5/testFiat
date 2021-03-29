@@ -6,36 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cotizador Fiat</title>
     <! -- Assets -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <! -- Menu bar -->
-    <div class="menubar">
-        <div class="menucontainer">
-            <div class="logocontainer">
-                <img src="assets/images/logo.png" alt="logo" width="50" height="50" class="logo">
-            </div>
-            <div class="menu">
-                <a href="#" style="margin: 0px 0px 0px 76px;" class="menulink">Modelos</a>
-                <a href="#" style="margin: 0px 0px 0px 72px;" class="menulink">Prueba de manejo</a>
-                <a href="#" style="margin: 0px 0px 0px 78px;" class="menulink">Cotizar</a>
-                <a href="#" style="margin: 0px 0px 0px 73px;" class="menulink">Promociones</a>
-                <a href="#" style="margin: 0px 0px 0px 80px;" class="menulink">Distribuidores</a>
-            </div>
-            <div class="menubtncnt">
-                <i class="fas fa-bars menubtn"></i>
-            </div>
+    <!-- Menu bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="logo" width="50" height="50" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars menubtn"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0px 0px 0px 0px;" href="#">Modelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0px 0px 0px 72px;" href="#">Prueba de manejo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="margin: 0px 0px 0px 78px;" aria-current="page" href="#">Cotizar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0px 0px 0px 73px;" href="#">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin: 0px 0px 0px 80px;" href="#">Distribuidores</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <! -- Hero -->
+      </nav>
+    <!-- Hero -->
     <p class="hero1">Cotizador</p>
-    <div style="text-align: center;">
+    <div style="text-align: center; line-height: 1;">
         <div class="line">
             <br>
-        </div>
-        <h3 class="hero2">Citadino, aventurero, deportivo</h3>
-        <div class="line">
+        </div><h3 class="hero2">Citadino, aventurero, deportivo</h3><div class="line">
             <br>
         </div>
     </div>
@@ -43,47 +54,41 @@
     <div class="mincar">
         <img src="assets/images/car.png" alt="logo" class="car">
     </div>
-    <! -- Form -->
+    <!-- Form -->
     <fomr class="form">
         <div class="formleft">
             <label class="label1">Modelo</label>
-            <div class="select-wrapper">
-                <select>
-                    <option value="option-1">Opción 1</option>
-                    <option value="option-2">Opción 2</option>
-                    <option value="option-3">Opción 3</option>
-                </select>
-            </div>
-        </div>
-        <div class="formright">
+            <select class="form-select">
+                <option selected>Selecciona</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+        </div><div class="formright">
             <label class="label1">Versión</label>
-            <div class="select-wrapper">
-                <select>
-                    <option value="option-1">Opción 1</option>
-                    <option value="option-2">Opción 2</option>
-                    <option value="option-3">Opción 3</option>
-                </select>
-            </div>
+            <select class="form-select">
+                <option selected>Selecciona</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
         </div>
         <div class="formleft">
             <label class="label1">Estado</label>
-            <div class="select-wrapper">
-                <select>
-                    <option value="option-1">Opción 1</option>
-                    <option value="option-2">Opción 2</option>
-                    <option value="option-3">Opción 3</option>
-                </select>
-            </div>
-        </div>
-        <div class="formright">
+            <select class="form-select">
+                <option selected>Selecciona</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+        </div><div class="formright">
             <label class="label1">Distribuidor</label>
-            <div class="select-wrapper">
-                <select>
-                    <option value="option-1">Opción 1</option>
-                    <option value="option-2">Opción 2</option>
-                    <option value="option-3">Opción 3</option>
-                </select>
-            </div>
+            <select class="form-select">
+                <option selected>Selecciona</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
         </div>
         <div class="titlecontainer">
             <div class="line2">
@@ -93,28 +98,45 @@
             </div>
         </div>
         <p class="subtitle">Escribe tus datos personales</p>
-        <div class="formcontainer">
-            <div class="form1">
+        <div class="row grid1">
+            <div class="col-6 col-md-3">
                 <label class="label1">Nombre(s)</label>
-                <input placeholder="Escribe tu nombre">
-            </div><div class="form1">
+                <input type="name" placeholder="Escribe tu nombre">
+            </div>
+            <div class="col-6 col-md-1 hide1"><br></div>
+            <div class="col-6 col-md-3">
                 <label class="label1">Apellido Paterno</label>
-                <input placeholder="Escribe tu apellido">
-            </div><div class="form2">
+                <input type="last_name1" placeholder="Escribe tu apellido">
+            </div>
+            <div class="col-6 col-md-1 hide1"><br></div>
+            <div class="col-6 col-md-3">
                 <label class="label1">Apellido Materno</label>
-                <input placeholder="Escribe tu apellido">
+                <input type="last_name2" placeholder="Escribe tu apellido">
             </div>
-            <div class="form1">
+            <div class="col-6 col-md-3">
                 <label class="label1">Email</label>
-                <input placeholder="correo@email.com.mx">
+                <input type="email" placeholder="correo@email.com.mx">
             </div>
-            <div class="form1">
+            <div class="col-6 col-md-1 hide1"><br></div>
+            <div class="col-6 col-md-3">
                 <label class="label1">Teléfono</label>
-                <input placeholder="c01 . 844 . 439 . 0654">
+                <input type="phone" placeholder="c01 . 844 . 439 . 0654">
             </div>
         </div>
         <label class="label1">Deseo ser contactado por</label>
-            <button type="button" class="button1"><i class="fas fa-phone-alt icon1"></i>Teléfono</button><button type="button" class="button2"><i class="fas fa-envelope icon2"></i>Email</button><button type="button" class="button2">Ambos</button>
+        <div class="container">
+            <div class="row align-items-start">
+            <div class="col">
+                <button type="button" class="button1"><i class="fas fa-phone-alt icon1"></i>Teléfono</button>
+            </div>
+            <div class="col">
+                <button type="button" class="button2"><i class="fas fa-envelope icon2"></i>Email</button>
+            </div>
+            <div class="col">
+                <button type="button" class="button2 b3">Ambos</button>
+            </div>
+            </div>
+        </div>
         <div class="titlecontainer">
             <div class="line2">
                 <br>
@@ -127,21 +149,28 @@
         <p class="subtitle">Personaliza tu cotización</p>
         <div class="container1">
             <label class="label1">Elige tu tipo de pago</label>
-            <button type="button" class="button3">Contado</button><button type="button" class="button4">Crédito</button>
-            <div class="container2 container3">
-                <label class="label1">Cantidad de enganche</label>
-                <input class="input2" placeholder="80, 000.00">
-            </div><div class="container2">
-                <label class="label1">Plazo</label>
-                <div class="select-wrapper">
-                    <select class="input3">
-                        <option value="option-1">Opción 1</option>
-                        <option value="option-2">Opción 2</option>
-                        <option value="option-3">Opción 3</option>
-                    </select>
+            <div class="container">
+                <div class="row align-items-start">
+                <div class="col">
+                    <button type="button" class="button3">Contado</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="button4">Crédito</button>
                 </div>
             </div>
-        </div>
+            <div class="container2 container3">
+                <label class="label1">Cantidad de enganche</label>
+                <input type="price" placeholder="80, 000.00" class="input2">
+            </div><div class="container2">
+                <label class="label1">Plazo</label>
+                <select class="form-select">
+                    <option selected>Selecciona</option>
+                    <option value="1">Opción 1</option>
+                    <option value="2">Opción 2</option>
+                    <option value="3">Opción 3</option>
+                </select>
+            </div>
+        </div></div>
         <div class="titlecontainer">
             <div class="line3">
                 <br>
@@ -152,14 +181,27 @@
         <p class="subtitle">Nos importan tus comentarios</p>
         <div style="margin: 35px 0px 25px 0px">
             <label class="label1">¿Dudas? ¿Comentarios?</label>
-            <textarea placeholder="Escríbenos"></textarea>
+            <textarea class="form-control" placeholder="Escríbenos"></textarea>
         </div>
         <div class="container4">
-            <label class="label2"><input type="checkbox" class="cbox1" value="first_checkbox"> He leído y acepto el <a href="#">aviso de privacidad</a></label>
-            <label class="label2"><input type="checkbox" class="cbox1" value="second_checkbox">No deseo recibir promociones</label>
+            <div class="form-check" style="margin-bottom: 19px;">
+                <input class="form-check-input cbox1" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label label2" for="flexCheckDefault">
+                    He leído y acepto el <a href="#">aviso de privacidad
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input cbox1" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label label2" for="flexCheckDefault">
+                    No deseo recibir promociones
+                </label>
+            </div>
             <button type="button" class="button5">Enviar</button>
         </div>
     </form>
+    <script src="./jquery/src/jquery.js"></script>
+    <script src="./popper/src/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
 
 </body>
 </html>
